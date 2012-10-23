@@ -25,7 +25,7 @@ class Backtrace
   def raw=(raw)
     raw.compact.each do |raw_line|
       lines << BacktraceLine.new(BacktraceLineNormalizer.new(raw_line).call)
-    end
+    end if raw
   end
 
   private
