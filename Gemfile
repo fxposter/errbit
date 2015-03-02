@@ -103,6 +103,7 @@ end
 gem 'sass-rails'
 gem 'coffee-rails'
 gem 'uglifier'
+gem 'therubyracer', :platform => :ruby
 # We can't upgrade because not compatible to jquery >= 1.9.
 # To do that, we need fix the rails.js
 gem 'jquery-rails', '~> 2.1.4'
